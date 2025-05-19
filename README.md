@@ -5,12 +5,15 @@
 
 ## 系统配置
 - **硬件环境**  
-  CPU: Apple M4
-  RAM: 16GB  
-  OS: MACOS 15
+  - CPU: Apple M4
+  - RAM: 16GB  
+  - OS: MACOS 15
 
 - **软件版本**  
-  Python 3.10.16 | scikit-learn 1.6.1 | TensorFlow 2.19.0 | YDF 0.11.0
+  - Python 3.10.16
+  - scikit-learn 1.6.1
+  - TensorFlow 2.19.0
+  - YDF 0.11.0
 
 ## 数据集说明
 - **数据来源**  
@@ -18,6 +21,9 @@
 
 - **特征示例**  
   `GDD`（生长期有效积温）、`SOC`（土壤有机碳）、`N.fert`（氮肥用量）、`Crop.variety`（作物品种）等
+
+- **预测变量**
+  `Yield`作物产量
 
 - **预处理**  
   ```python
