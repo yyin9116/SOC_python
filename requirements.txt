@@ -1,0 +1,8 @@
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.2.3
+psutil==5.9.0
+scikit_learn==1.6.1
+tensorflow==2.19.0
+tensorflow_decision_forests==1.12.0
+ydf==0.11.0
